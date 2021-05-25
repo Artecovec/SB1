@@ -1,3 +1,4 @@
+/***slider***/
 $(document).on('ready', function() {          
     $(".regular").slick({
       dots: true,
@@ -6,3 +7,10 @@ $(document).on('ready', function() {
       slidesToScroll: 1
     });              
   });
+  /***spoiler***/
+$(document).ready(function(){
+  $('.spoiler-links').click(function(){
+   $(this).next('.spoiler-body').toggle('normal');   
+   return false;
+  });
+ });
