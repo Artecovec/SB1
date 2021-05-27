@@ -216,8 +216,8 @@ h1 {
   color: #333F48;
   .slider-title {
       color: #A61E61;
-      font-size: 17px;
-      line-height: 22px;
+      font-size: 20px;
+      line-height: 26px;
       font-weight: 400;
   }
   .slider-description {
@@ -295,11 +295,12 @@ h1 {
 
 .spoiler-links { 
     cursor: pointer; 
-    font-weight: 700;
+    font-weight: 400;
     padding: 30px 0 5px;
     position: relative;
     font-size: 17px;
-    line-height: 22px;    
+    line-height: 22px;
+    color: #333F48;        
 }
 
 .spoiler-arrow {
@@ -312,4 +313,3 @@ h1 {
     border-width: 10px 10px 0 10px;
     border-color: #333f48 transparent transparent transparent;
 }
-
