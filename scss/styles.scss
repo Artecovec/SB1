@@ -272,6 +272,19 @@ h1 {
   opacity: 1;
 }
 
+.slick-slider {
+    display: flex;
+    align-items: stretch;
+}
+
+.slick-list {
+    display: flex;
+}
+
+.slick-track {
+    display: flex;
+}
+
 /***SPOILER***/
 
 .section-questions {
@@ -296,16 +309,20 @@ h1 {
 .spoiler-links { 
     cursor: pointer; 
     font-weight: 400;
-    padding: 30px 0 5px;
+    margin: 30px 0 5px;
     position: relative;
     font-size: 17px;
     line-height: 22px;
     color: #333F48;        
 }
 
+.subhead.spoiler-links {
+    margin: 0;
+}
+
 .spoiler-arrow {
     position: absolute;
-    top: 34px;
+    top: 4px;
     right: -9px;
     width: 0;
     height: 0;
